@@ -1,0 +1,30 @@
+   <!--<div style="padding-left:130px;padding-right:200px;">
+ <h1>{{message}}{{message}}</h1>
+  <p>This is simple angular ng-view and ng-route tutorial to demonstrate single page web app development.</p>
+  <p>
+    This is executed because of this code.
+    <pre>
+      <code>
+        .when('/',{
+              templateURl: 'home.html'
+        })
+      </code>
+    </pre>
+  </p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Read tutorial</a></p>
+</div>-->
+<div style="padding-left:130px;padding-right:200px;">
+    <div class="qHeader"> Results </div>
+    <div>
+        <div id="divCard" data-ng-repeat="s in cards">
+            <div class="user">
+                <span></span>
+                <img src="{{s.OSS.Image}}" />
+
+            </div>
+            <div id="userInfo" class="name-stack" style="">
+                <h4>{{s.OSS.Name}} from {{s.OSS.Company}}</h4>
+            </div>
+        </div>
+    </div>
+  </div>
